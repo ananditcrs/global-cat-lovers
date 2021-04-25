@@ -16,7 +16,7 @@ $ aws s3api create-bucket --bucket ${bucket} --create-bucket-configuration Locat
 
 ## Steps for Setup
 
-Edit the config.json file and change the name of the bucket, rename the project by editing the service name in serverless.yml
+Edit the config.json file and change the name of the bucket, you could rename the project by editing the service name in serverless.yml as you wish
 
 ## Deployment Steps
 
