@@ -20,9 +20,10 @@ Lambda@Edge functions deployed to the North Virginia (us-east-1) region. From th
 ## How to Test
 go to command primpt and presumed your AWS CLI installed and configured to your account
 
-aws cloudfront list-distributions --query DistributionList.Items[*][DomainName,Comment] --region us-east-1
+aws cloudfront list-distributions --query DistributionList.Items[*][DomainName,Comment] --region ${region}
 
 Pick the domain name from the list and run curl https://DOMAIN_NAME/url. Copy the response and then run following snippet.
+
 curl --request PUT \
      --url "URL_FROM_RESPONSE" \
      --verbose \
