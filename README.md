@@ -1,7 +1,11 @@
 This is Global Cat lovers serverless Project setup.
+
 Lets setup some ENV variables
+
 $ export profile="catlovers"
+
 $ export region="us-east-1"
+
 $ export bucket="global-cat-lovers-bucket"
 
 It is now time to deploy the api. Replace these with values that match your setup.
